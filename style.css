@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #101010;
+  font-family: "Roboto";
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  font-size: 5rem;
+  font-family: "Roboto";
+  text-align: center;
+  text-decoration: underline;
+}
+
+.tabs {
+  margin: auto;
+  padding: 0;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* outline: 1px solid #fff; */
+}
+
+.tabs .tab {
+  font-size: 25px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.tabs .tab.active {
+  padding: 15px;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.gallery {
+  margin: 50px auto;
+  padding: 20px;
+  width: 90%;
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  /* outline: 1px solid #fff; */
+}
+
+.gallery .item {
+  margin: 10px 0;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #023480;
+}
+
+.gallery .item.hide {
+  display: none;
+}
+
+.gallery .fruit {
+  background: coral;
+}
+.gallery .vegetable {
+  background: rgb(7, 107, 107);
+}
+.gallery .dish {
+  background: blue;
+}
+.gallery .drink {
+  background: violet;
+}
